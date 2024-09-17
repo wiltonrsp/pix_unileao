@@ -1,0 +1,63 @@
+.centro{
+    background-color:white;
+    border-radius:15px;
+    margin-top:2%;
+}
+
+*{
+    font-family: "Nunito",sans-serif;
+
+}
+
+body{
+    background-color:#2a2744 !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.interno{
+    background-color: #d3d3d3;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 97.5%;
+    border-radius: 5px;
+}
+
+ 
+ 
+
+hr{
+border:2px dashed #d1d1d1;
+background-color:white
+}
+
+.logo_pix{
+    width:45%
+}
+ 
+.logo{
+    width:50%
+}
+
+.paiqrcode{
+    width:275px;
+    padding:5px;
+    border-radius:10px;
+    border:5px solid #2a2744;
+}
+
+.texto-forte{
+    font-size:110%;
+}
+.mensagem{
+    font-weight: 400;
+    font-size:150%;
+    color:rgb(112, 230, 112);
+    animation: blink 2s step-start 0s infinite;
+}
+
+ 
+@keyframes blink {
+    50% {
+      opacity: 0.0;
+    }
+  }
